@@ -1,18 +1,21 @@
-Smart To-Do Liste mit TinyLLM
+## Smart To-Do Liste mit TinyLLM
 
 Für dieses Projekt wird das Modell TinyLlama verwendet, ein kleines, ressourcenschonendes Sprachmodell.
 
-Modell: TinyLlama
+## Modell: TinyLlama
 
-Beschreibung: Ein kleines, ressourcenschonendes Sprachmodell (LLM) für schnelle Textverarbeitung
+## Beschreibung: 
+Ein kleines, ressourcenschonendes Sprachmodell (LLM) für schnelle Textverarbeitung
 
-Entwickelt von: Community / HuggingFace
+## Entwickelt von:
+Community / HuggingFace
 
-Aufgabe: Automatische Generierung strukturierter To-Do-Listen mit Priorität und Kategorie für jede Aufgabe: Zuhause, Arbeit, Hobby, Sonstiges
+## Aufgabe:
+Automatische Generierung strukturierter To-Do-Listen mit Priorität und Kategorie für jede Aufgabe: Zuhause, Arbeit, Hobby, Sonstiges
 
 Vorhandene Eingangsfloskeln wie „Ich muss heute“, „Heute muss ich“ oder „Bitte erledige“ werden automatisch entfernt, sodass die To-Do-Liste sauber und übersichtlich ist.
 
-Frameworks / Libraries:
+## Frameworks / Libraries:
 
 -Python 3.10+ (aktuelle Version, die wir verwendet haben)
 
@@ -28,7 +31,7 @@ Frameworks / Libraries:
 
 -diskcache – optional, von llama-cpp-python für Cache verwendet
 
-Kurze Anleitung zum Starten des Programms(HuggingFace, optional, falls GGUF nicht verfügbar)
+## Kurze Anleitung zum Starten des Programms(HuggingFace, optional, falls GGUF nicht verfügbar)
 
 -Python 3.13+ installiert
 
@@ -58,7 +61,7 @@ Ich muss heute Zimmer aufräumen; Wäsche waschen; Müll rausbringen; E-Mails be
 
 -exit zum Beenden.
 
-Kurze Anleitung zum Starten des Programms (lokal mit GGUF)
+## Kurze Anleitung zum Starten des Programms (lokal mit GGUF)
 
 -Python 3.13+ installiert
 
@@ -86,9 +89,10 @@ Für die lokale Version (llama-cpp-python) und weitere Abhängigkeiten:
 
     pip install transformers torch sentencepiece
 
-Hinweis: transformers wird nur benötigt, falls das lokale GGUF-Modell nicht gefunden wird.
+## Hinweis:
+transformers wird nur benötigt, falls das lokale GGUF-Modell nicht gefunden wird.
 
--Programm starten
+## Programm starten
 
     python smart_todo.py
 
